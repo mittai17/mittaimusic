@@ -1,0 +1,77 @@
+[
+  {
+    "userId": "user_001",
+    "sessionId": "session_001",
+    "tracks": ["track_001", "track_008", "track_009", "track_003", "track_011"]
+  },
+  {
+    "userId": "user_001",
+    "sessionId": "session_002",
+    "tracks": ["track_002", "track_010", "track_001", "track_003"]
+  },
+  {
+    "userId": "user_002",
+    "sessionId": "session_003",
+    "tracks": ["track_004", "track_005", "track_012", "track_004"]
+  },
+  {
+    "userId": "user_002",
+    "sessionId": "session_004",
+    "tracks": ["track_005", "track_012", "track_004", "track_005"]
+  },
+  {
+    "userId": "user_003",
+    "sessionId": "session_005",
+    "tracks": ["track_006", "track_007", "track_013", "track_006"]
+  },
+  {
+    "userId": "user_003",
+    "sessionId": "session_006",
+    "tracks": ["track_007", "track_013", "track_006", "track_007"]
+  },
+  {
+    "userId": "user_004",
+    "sessionId": "session_007",
+    "tracks": ["track_001", "track_002", "track_003", "track_011", "track_010"]
+  },
+  {
+    "userId": "user_004",
+    "sessionId": "session_008",
+    "tracks": ["track_003", "track_011", "track_001", "track_002"]
+  },
+  {
+    "userId": "user_005",
+    "sessionId": "session_009",
+    "tracks": ["track_008", "track_009", "track_001", "track_008"]
+  },
+  {
+    "userId": "user_005",
+    "sessionId": "session_010",
+    "tracks": ["track_014", "track_015", "track_002", "track_010"]
+  },
+  {
+    "userId": "user_006",
+    "sessionId": "session_011",
+    "tracks": ["track_004", "track_012", "track_005", "track_004"]
+  },
+  {
+    "userId": "user_007",
+    "sessionId": "session_012",
+    "tracks": ["track_006", "track_013", "track_007", "track_006"]
+  },
+  {
+    "userId": "user_008",
+    "sessionId": "session_013",
+    "tracks": ["track_001", "track_003", "track_011", "track_002", "track_010"]
+  },
+  {
+    "userId": "user_009",
+    "sessionId": "session_014",
+    "tracks": ["track_002", "track_010", "track_014", "track_015"]
+  },
+  {
+    "userId": "user_010",
+    "sessionId": "session_015",
+    "tracks": ["track_008", "track_009", "track_001", "track_003"]
+  }
+]

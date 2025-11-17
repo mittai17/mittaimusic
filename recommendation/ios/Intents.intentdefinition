@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>INEnums</key>
+    <array/>
+    <key>INIntentDefinitionModelVersion</key>
+    <string>1.2</string>
+    <key>INIntentDefinitionNamespace</key>
+    <string>88xZPY</string>
+    <key>INIntentDefinitionSystemVersion</key>
+    <string>20A294</string>
+    <key>INIntentDefinitionToolsBuildVersion</key>
+    <string>12A6144</string>
+    <key>INIntentDefinitionToolsVersion</key>
+    <string>12.0</string>
+    <key>INIntents</key>
+    <array>
+        <!-- Play Music Intent -->
+        <dict>
+            <key>INIntentCategory</key>
+            <string>play</string>
+            <key>INIntentDescription</key>
+            <string>Play a specific song</string>
+            <key>INIntentDescriptionID</key>
+            <string>gzTd2k</string>
+            <key>INIntentName</key>
+            <string>PlayMusic</string>
+            <key>INIntentParameters</key>
+            <array>
+                <dict>
+                    <key>INIntentParameterConfigurable</key>
+                    <true/>
+                    <key>INIntentParameterDisplayName</key>
+                    <string>Track Name</string>
+                    <key>INIntentParameterDisplayNameID</key>
+                    <string>uT8FQo</string>
+                    <key>INIntentParameterName</key>
+                    <string>trackName</string>
+                    <key>INIntentParameterPromptDialogs</key>
+                    <array>
+                        <dict>
+                            <key>INIntentParameterPromptDialogCustom</key>
+                            <true/>
+                            <key>INIntentParameterPromptDialogType</key>
+                            <string>Configuration</string>
+                        </dict>
+                    </array>
+                    <key>INIntentParameterTag</key>
+                    <integer>2</integer>
+                    <key>INIntentParameterType</key>
+                    <string>String</string>
+                </dict>
+            </array>
+            <key>INIntentResponse</key>
+            <dict>
+                <key>INIntentResponseCodes</key>
+                <array>
+                    <dict>
+                        <key>INIntentResponseCodeName</key>
+                        <string>success</string>
+                        <key>INIntentResponseCodeSuccess</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>INIntentResponseCodeName</key>
+                        <string>failure</string>
+                    </dict>
+                </array>
+            </dict>
+            <key>INIntentTitle</key>
+            <string>Play Music</string>
+            <key>INIntentTitleID</key>
+            <string>gpCwrM</string>
+            <key>INIntentType</key>
+            <string>Custom</string>
+            <key>INIntentVerb</key>
+            <string>Play</string>
+        </dict>
+        
+        <!-- Get Recommendations Intent -->
+        <dict>
+            <key>INIntentCategory</key>
+            <string>information</string>
+            <key>INIntentDescription</key>
+            <string>Get personalized music recommendations</string>
+            <key>INIntentName</key>
+            <string>GetRecommendations</string>
+            <key>INIntentParameters</key>
+            <array>
+                <dict>
+                    <key>INIntentParameterDisplayName</key>
+                    <string>Count</string>
+                    <key>INIntentParameterName</key>
+                    <string>count</string>
+                    <key>INIntentParameterType</key>
+                    <string>Integer</string>
+                </dict>
+            </array>
+            <key>INIntentTitle</key>
+            <string>Get Recommendations</string>
+            <key>INIntentType</key>
+            <string>Custom</string>
+        </dict>
+        
+        <!-- Play Playlist Intent -->
+        <dict>
+            <key>INIntentCategory</key>
+            <string>play</string>
+            <key>INIntentDescription</key>
+            <string>Play a playlist</string>
+            <key>INIntentName</key>
+            <string>PlayPlaylist</string>
+            <key>INIntentParameters</key>
+            <array>
+                <dict>
+                    <key>INIntentParameterDisplayName</key>
+                    <string>Playlist Name</string>
+                    <key>INIntentParameterName</key>
+                    <string>playlistName</string>
+                    <key>INIntentParameterType</key>
+                    <string>String</string>
+                </dict>
+            </array>
+            <key>INIntentTitle</key>
+            <string>Play Playlist</string>
+            <key>INIntentType</key>
+            <string>Custom</string>
+        </dict>
+        
+        <!-- Search Music Intent -->
+        <dict>
+            <key>INIntentCategory</key>
+            <string>information</string>
+            <key>INIntentDescription</key>
+            <string>Search for music</string>
+            <key>INIntentName</key>
+            <string>SearchMusic</string>
+            <key>INIntentParameters</key>
+            <array>
+                <dict>
+                    <key>INIntentParameterDisplayName</key>
+                    <string>Query</string>
+                    <key>INIntentParameterName</key>
+                    <string>query</string>
+                    <key>INIntentParameterType</key>
+                    <string>String</string>
+                </dict>
+            </array>
+            <key>INIntentTitle</key>
+            <string>Search Music</string>
+            <key>INIntentType</key>
+            <string>Custom</string>
+        </dict>
+        
+        <!-- Play Similar Intent -->
+        <dict>
+            <key>INIntentCategory</key>
+            <string>play</string>
+            <key>INIntentDescription</key>
+            <string>Play similar songs</string>
+            <key>INIntentName</key>
+            <string>PlaySimilar</string>
+            <key>INIntentParameters</key>
+            <array>
+                <dict>
+                    <key>INIntentParameterDisplayName</key>
+                    <string>Track Name</string>
+                    <key>INIntentParameterName</key>
+                    <string>trackName</string>
+                    <key>INIntentParameterType</key>
+                    <string>String</string>
+                </dict>
+            </array>
+            <key>INIntentTitle</key>
+            <string>Play Similar</string>
+            <key>INIntentType</key>
+            <string>Custom</string>
+        </dict>
+    </array>
+    <key>INTypes</key>
+    <array/>
+</dict>
+</plist>

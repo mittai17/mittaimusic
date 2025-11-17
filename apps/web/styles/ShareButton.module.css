@@ -1,0 +1,26 @@
+/* Share Button */
+
+.shareBtn {
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.shareBtn:hover {
+  background: rgba(29, 185, 84, 0.2);
+  border-color: #1db954;
+  transform: translateY(-2px);
+}
+
+.shareBtn:active {
+  transform: translateY(0);
+}

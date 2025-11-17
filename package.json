@@ -1,0 +1,24 @@
+{
+  "name": "mittais-music",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A monorepo React starter for a music streaming app targeting iOS, Android, and Web",
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:mobile": "pnpm --filter mobile start",
+    "build:web": "pnpm --filter web build",
+    "build:mobile": "pnpm --filter mobile prebuild",
+    "test": "pnpm --recursive test",
+    "lint": "pnpm --recursive lint",
+    "type-check": "pnpm --recursive type-check"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
+

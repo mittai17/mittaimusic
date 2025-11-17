@@ -1,0 +1,283 @@
+{
+  "homeData": {
+    "featuredPlaylists": [
+      {
+        "id": "featured-1",
+        "name": "Today's Top Hits",
+        "description": "The most played songs right now",
+        "coverUrl": "https://via.placeholder.com/300",
+        "tracks": [
+          {
+            "id": "track-1",
+            "title": "Song Title 1",
+            "artist": "Artist Name 1",
+            "artistId": "artist-1",
+            "album": "Album Name 1",
+            "albumId": "album-1",
+            "duration": 210,
+            "coverUrl": "https://via.placeholder.com/300",
+            "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+            "genre": "Pop"
+          },
+          {
+            "id": "track-2",
+            "title": "Song Title 2",
+            "artist": "Artist Name 2",
+            "artistId": "artist-2",
+            "album": "Album Name 2",
+            "albumId": "album-2",
+            "duration": 195,
+            "coverUrl": "https://via.placeholder.com/300",
+            "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+            "genre": "Rock"
+          }
+        ],
+        "ownerId": "system",
+        "createdAt": "2024-01-01T00:00:00Z"
+      }
+    ],
+    "trendingPlaylists": [
+      {
+        "id": "trending-1",
+        "name": "Chill Vibes",
+        "description": "Relaxing music for your day",
+        "coverUrl": "https://via.placeholder.com/300",
+        "tracks": [
+          {
+            "id": "track-3",
+            "title": "Chill Song 1",
+            "artist": "Chill Artist",
+            "artistId": "artist-3",
+            "duration": 240,
+            "coverUrl": "https://via.placeholder.com/300",
+            "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+            "genre": "Chill"
+          }
+        ],
+        "ownerId": "system",
+        "createdAt": "2024-01-01T00:00:00Z"
+      },
+      {
+        "id": "trending-2",
+        "name": "Workout Mix",
+        "description": "High energy tracks",
+        "coverUrl": "https://via.placeholder.com/300",
+        "tracks": [
+          {
+            "id": "track-4",
+            "title": "Workout Song 1",
+            "artist": "Energy Artist",
+            "artistId": "artist-4",
+            "duration": 180,
+            "coverUrl": "https://via.placeholder.com/300",
+            "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+            "genre": "Electronic"
+          }
+        ],
+        "ownerId": "system",
+        "createdAt": "2024-01-01T00:00:00Z"
+      }
+    ],
+    "genres": [
+      {
+        "id": "pop",
+        "name": "Pop",
+        "coverUrl": "https://via.placeholder.com/300"
+      },
+      {
+        "id": "rock",
+        "name": "Rock",
+        "coverUrl": "https://via.placeholder.com/300"
+      },
+      {
+        "id": "electronic",
+        "name": "Electronic",
+        "coverUrl": "https://via.placeholder.com/300"
+      },
+      {
+        "id": "jazz",
+        "name": "Jazz",
+        "coverUrl": "https://via.placeholder.com/300"
+      }
+    ],
+    "recommendedTracks": [
+      {
+        "id": "track-1",
+        "title": "Song Title 1",
+        "artist": "Artist Name 1",
+        "artistId": "artist-1",
+        "album": "Album Name 1",
+        "albumId": "album-1",
+        "duration": 210,
+        "coverUrl": "https://via.placeholder.com/300",
+        "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+        "genre": "Pop"
+      },
+      {
+        "id": "track-2",
+        "title": "Song Title 2",
+        "artist": "Artist Name 2",
+        "artistId": "artist-2",
+        "album": "Album Name 2",
+        "albumId": "album-2",
+        "duration": 195,
+        "coverUrl": "https://via.placeholder.com/300",
+        "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+        "genre": "Rock"
+      },
+      {
+        "id": "track-3",
+        "title": "Chill Song 1",
+        "artist": "Chill Artist",
+        "artistId": "artist-3",
+        "duration": 240,
+        "coverUrl": "https://via.placeholder.com/300",
+        "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+        "genre": "Chill"
+      },
+      {
+        "id": "track-4",
+        "title": "Workout Song 1",
+        "artist": "Energy Artist",
+        "artistId": "artist-4",
+        "duration": 180,
+        "coverUrl": "https://via.placeholder.com/300",
+        "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+        "genre": "Electronic"
+      }
+    ]
+  },
+  "playlists": [
+    {
+      "id": "featured-1",
+      "name": "Today's Top Hits",
+      "description": "The most played songs right now",
+      "coverUrl": "https://via.placeholder.com/300",
+      "tracks": [
+        {
+          "id": "track-1",
+          "title": "Song Title 1",
+          "artist": "Artist Name 1",
+          "artistId": "artist-1",
+          "album": "Album Name 1",
+          "albumId": "album-1",
+          "duration": 210,
+          "coverUrl": "https://via.placeholder.com/300",
+          "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+          "genre": "Pop"
+        },
+        {
+          "id": "track-2",
+          "title": "Song Title 2",
+          "artist": "Artist Name 2",
+          "artistId": "artist-2",
+          "album": "Album Name 2",
+          "albumId": "album-2",
+          "duration": 195,
+          "coverUrl": "https://via.placeholder.com/300",
+          "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+          "genre": "Rock"
+        }
+      ],
+      "ownerId": "system",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "trending-1",
+      "name": "Chill Vibes",
+      "description": "Relaxing music for your day",
+      "coverUrl": "https://via.placeholder.com/300",
+      "tracks": [
+        {
+          "id": "track-3",
+          "title": "Chill Song 1",
+          "artist": "Chill Artist",
+          "artistId": "artist-3",
+          "duration": 240,
+          "coverUrl": "https://via.placeholder.com/300",
+          "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+          "genre": "Chill"
+        }
+      ],
+      "ownerId": "system",
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "trending-2",
+      "name": "Workout Mix",
+      "description": "High energy tracks",
+      "coverUrl": "https://via.placeholder.com/300",
+      "tracks": [
+        {
+          "id": "track-4",
+          "title": "Workout Song 1",
+          "artist": "Energy Artist",
+          "artistId": "artist-4",
+          "duration": 180,
+          "coverUrl": "https://via.placeholder.com/300",
+          "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+          "genre": "Electronic"
+        }
+      ],
+      "ownerId": "system",
+      "createdAt": "2024-01-01T00:00:00Z"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "track-1",
+      "title": "Song Title 1",
+      "artist": "Artist Name 1",
+      "artistId": "artist-1",
+      "album": "Album Name 1",
+      "albumId": "album-1",
+      "duration": 210,
+      "coverUrl": "https://via.placeholder.com/300",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "genre": "Pop"
+    },
+    {
+      "id": "track-2",
+      "title": "Song Title 2",
+      "artist": "Artist Name 2",
+      "artistId": "artist-2",
+      "album": "Album Name 2",
+      "albumId": "album-2",
+      "duration": 195,
+      "coverUrl": "https://via.placeholder.com/300",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "genre": "Rock"
+    },
+    {
+      "id": "track-3",
+      "title": "Chill Song 1",
+      "artist": "Chill Artist",
+      "artistId": "artist-3",
+      "duration": 240,
+      "coverUrl": "https://via.placeholder.com/300",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "genre": "Chill"
+    },
+    {
+      "id": "track-4",
+      "title": "Workout Song 1",
+      "artist": "Energy Artist",
+      "artistId": "artist-4",
+      "duration": 180,
+      "coverUrl": "https://via.placeholder.com/300",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "genre": "Electronic"
+    },
+    {
+      "id": "track-5",
+      "title": "Jazz Night",
+      "artist": "Jazz Master",
+      "artistId": "artist-5",
+      "duration": 300,
+      "coverUrl": "https://via.placeholder.com/300",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "genre": "Jazz"
+    }
+  ]
+}
+
