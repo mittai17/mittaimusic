@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: mittaimusic
+    env: node
+    region: oregon
+    plan: free
+    branch: main
+    buildCommand: cd apps/web && npm install && npm run build
+    startCommand: cd apps/web && npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 18.17.0
+      - key: NEXT_PUBLIC_YT_API_KEY
+        value: AIzaSyDc0f5IT8O7NFNtezeuBxotBvbmXwWnHOc
+      - key: NEXT_PUBLIC_SPOTIFY_CLIENT_ID
+        value: 40a831c8dc574f879ba48ef3f8311ca8
+      - key: NEXT_PUBLIC_SPOTIFY_CLIENT_SECRET
+        sync: false
+      - key: NEXT_PUBLIC_SPOTIFY_REDIRECT_URI
+        sync: false
