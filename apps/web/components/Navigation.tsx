@@ -8,8 +8,8 @@ export const Navigation: React.FC = () => {
   const navItems = [
     { path: '/search', label: 'Search', icon: '🔍' },
     { path: '/tamil-music', label: 'Tamil Music', icon: '🎼' },
-    { path: '/spotify-library', label: 'Spotify', icon: '🎧' },
-    { path: '/player', label: 'Player', icon: '🎵' },
+    { path: '/music-library', label: 'Music Library', icon: '🎵' },
+    { path: '/player', label: 'Player', icon: '🎧' },
   ];
 
   return (
