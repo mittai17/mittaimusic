@@ -4,12 +4,12 @@
 
 Your **Mittai's Music** app is fully set up with:
 
-- ✅ Spotify OAuth integration
+- ✅ Wynk Music, JioSaavn, Mi Music integration
+- ✅ Tamil Music library (15 songs)
 - ✅ YouTube search (with mock data)
 - ✅ Beautiful UI
 - ✅ Search functionality
 - ✅ Music player
-- ✅ All credentials configured
 
 ## 🎵 Quick Start (3 Steps)
 
@@ -19,18 +19,18 @@ cd apps/web
 npm run dev
 ```
 
-### Step 2: Connect Spotify
-1. Visit: http://localhost:3000/spotify-library
-2. Click **"Connect with Spotify"**
-3. Log in with your Spotify account
-4. Click **"Agree"** to authorize
+### Step 2: Explore Music
+1. Visit: http://localhost:3000/music-library
+2. Browse Wynk Music, JioSaavn, or Mi Music
+3. Search for your favorite songs
+4. Click any song to play
 
 ### Step 3: Enjoy!
-- Browse your playlists
-- See your saved songs
-- View top tracks
-- Check recently played
-- Search for music
+- Browse Indian music services
+- Discover Bollywood hits
+- Explore regional music
+- Search across platforms
+- Play any song instantly
 
 ## 🎯 What You Can Do Now
 
@@ -45,17 +45,17 @@ npm run dev
 **URL:** http://localhost:3000/search
 
 - Search YouTube videos
-- Search Spotify tracks (after connecting)
+- Search across music services
 - Switch between sources
 - Play any result
 
-### 🎧 Spotify Library
-**URL:** http://localhost:3000/spotify-library
+### � Musiic Library
+**URL:** http://localhost:3000/music-library
 
-- View all playlists
-- Browse saved songs
-- See top tracks (ranked)
-- Check recently played
+- Browse Wynk Music songs
+- Explore JioSaavn catalog
+- Discover Mi Music playlists
+- Filter by categories
 - Play any track
 
 ### 🎵 Music Player
@@ -72,9 +72,9 @@ npm run dev
 |------|-----|-------------|
 | Home | `/` | Landing page with splash screen |
 | Home | `/home` | Main home page |
-| Search | `/search` | Search YouTube & Spotify |
-| Spotify Library | `/spotify-library` | Your Spotify content |
-| Spotify Test | `/spotify-test` | Test with Bearer token |
+| Search | `/search` | Search YouTube & music services |
+| Music Library | `/music-library` | Wynk, JioSaavn, Mi Music |
+| Tamil Music | `/tamil-music` | Tamil music collection |
 | Player | `/player-enhanced` | Enhanced music player |
 | Test API | `/test-api` | Test YouTube API |
 
@@ -82,18 +82,18 @@ npm run dev
 
 ### Search
 - ✅ YouTube search (mock data fallback)
-- ✅ Spotify search (when connected)
+- ✅ Multi-service search
 - ✅ Recent searches
 - ✅ Beautiful grid layout
 - ✅ Play any result
 
-### Spotify Integration
-- ✅ OAuth 2.0 login
-- ✅ View playlists
-- ✅ Saved tracks
-- ✅ Top tracks
-- ✅ Recently played
-- ✅ Never expires (auto-refresh)
+### Music Services Integration
+- ✅ Wynk Music - Airtel's service
+- ✅ JioSaavn - India's largest platform
+- ✅ Mi Music - Xiaomi's service
+- ✅ Category filtering
+- ✅ Search across platforms
+- ✅ No authentication needed
 
 ### Player
 - ✅ Play/pause
@@ -109,20 +109,19 @@ npm run dev
 - ✅ Beautiful cards
 - ✅ Hover effects
 
-## 🔑 Your Credentials
+## 🎵 Music Services
 
-**Spotify Client ID:** `40a831c8dc574f879ba48ef3f8311ca8`
-**Spotify Client Secret:** `aadde63c12614309b8aff240a5b590e8`
-**Redirect URI:** `http://localhost:3000/api/spotify/callback`
+**Wynk Music** - Bollywood, Regional, International
+**JioSaavn** - 80M+ songs, 15+ languages
+**Mi Music** - Curated playlists, recommendations
 
-✅ Already configured in `.env.local`
+✅ No API keys required for demo mode
 
 ## 📚 Documentation
 
 ### Setup Guides
-- `SPOTIFY_SETUP.md` - Full Spotify setup
-- `QUICK_START_SPOTIFY.md` - Quick start guide
-- `GET_NEW_API_KEY.md` - YouTube API setup
+- `MUSIC_SERVICES_GUIDE.md` - Music services guide
+- `TAMIL_MUSIC_SETUP.md` - Tamil music setup
 
 ### Feature Docs
 - `FEATURES_SUMMARY.md` - All features
@@ -142,21 +141,21 @@ rm -rf .next
 npm run dev
 ```
 
-### Spotify not connecting?
-1. Check credentials in `.env.local`
-2. Verify redirect URI in Spotify Dashboard
+### Music library not loading?
+1. Check you're at `/music-library`
+2. Try refreshing the page
 3. Restart dev server
 
 ### Search not working?
 1. For YouTube: Uses mock data (works offline)
-2. For Spotify: Connect at `/spotify-library` first
+2. For Music Services: Demo data included
 
 ## 💡 Tips
 
-1. **Connect Spotify first** for best experience
-2. **Use "All Sources"** in search for maximum results
-3. **Check recent searches** for quick access
-4. **Explore playlists** in Spotify Library
+1. **Explore Music Library** for Indian music
+2. **Switch between services** to compare catalogs
+3. **Use category filters** for quick discovery
+4. **Check Tamil Music** for regional content
 5. **Try the enhanced player** for full features
 
 ## 🎉 You're All Set!
@@ -164,7 +163,7 @@ npm run dev
 Your app is ready to use. Just:
 
 1. **Start the server:** `npm run dev`
-2. **Connect Spotify:** Visit `/spotify-library`
+2. **Browse Music:** Visit `/music-library`
 3. **Start listening:** Search and play music!
 
 ---
