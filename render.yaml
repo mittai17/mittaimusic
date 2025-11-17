@@ -5,8 +5,9 @@ services:
     region: oregon
     plan: free
     branch: main
-    buildCommand: cd apps/web && npm install && npm run build
-    startCommand: cd apps/web && npm start
+    rootDir: apps/web
+    buildCommand: npm install -g pnpm && pnpm install && pnpm run build
+    startCommand: pnpm start
     envVars:
       - key: NODE_VERSION
         value: 18.17.0

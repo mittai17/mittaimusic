@@ -34,8 +34,8 @@ Region: Oregon (US West)
 Branch: main
 Root Directory: apps/web
 
-Build Command: npm install && npm run build
-Start Command: npm start
+Build Command: npm install -g pnpm && pnpm install && pnpm run build
+Start Command: pnpm start
 ```
 
 Click **"Advanced"** and add these environment variables:

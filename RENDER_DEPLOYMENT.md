@@ -35,8 +35,8 @@ Fill in these settings:
 | **Branch** | `main` |
 | **Root Directory** | `apps/web` |
 | **Runtime** | Node |
-| **Build Command** | `npm install && npm run build` |
-| **Start Command** | `npm start` |
+| **Build Command** | `npm install -g pnpm && pnpm install && pnpm run build` |
+| **Start Command** | `pnpm start` |
 | **Plan** | Free |
 
 ### Step 4: Add Environment Variables
@@ -80,8 +80,8 @@ Branch: main
 Root Directory: apps/web
 
 Runtime: Node
-Build Command: npm install && npm run build
-Start Command: npm start
+Build Command: npm install -g pnpm && pnpm install && pnpm run build
+Start Command: pnpm start
 
 Auto-Deploy: Yes
 ```
