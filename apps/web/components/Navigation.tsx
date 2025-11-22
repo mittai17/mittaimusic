@@ -8,6 +8,7 @@ export const Navigation: React.FC = () => {
   const navItems = [
     { path: '/search', label: 'Search', icon: '🔍' },
     { path: '/tamil-music', label: 'Tamil Music', icon: '🎼' },
+    { path: '/favorites', label: 'Favorites', icon: '❤️' },
     { path: '/player', label: 'Player', icon: '🎵' },
   ];
 
